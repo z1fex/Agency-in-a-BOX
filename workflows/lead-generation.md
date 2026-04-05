@@ -42,7 +42,7 @@
 **Save:** `output/[client]/[date]/lead-generation/outreach-emails.md`
 
 ### Step 6: Follow-up Sequence
-**Read:** `agents/sales/follow-up-automator.md`
+**Read:** `agents/sales/followup-automator.md`
 **Do:** Write 4-touch follow-up sequence with timing (Day 3, Day 7, Day 14, Day 30). Each adds new value — case study, resource, insight, breakup email.
 **Save:** `output/[client]/[date]/lead-generation/follow-up-sequence.md`
 
