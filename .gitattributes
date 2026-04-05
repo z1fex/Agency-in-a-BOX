@@ -1,3 +1,0 @@
-# Fix GitHub language detection — this project is Markdown, not Python
-*.md linguist-detectable=true
-*.py linguist-detectable=false
