@@ -2,25 +2,25 @@
 
 # AI Agency in a Box
 
-### Your full-service AI agency. 7 teams. 100+ agents. Zero setup.
+### Your full-service AI agency. 8 teams. 113+ agents. Zero setup.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Agents](https://img.shields.io/badge/Agents-100%2B-brightgreen)](#-the-7-teams)
+[![Agents](https://img.shields.io/badge/Agents-113%2B-brightgreen)](#-the-8-teams)
 [![Workflows](https://img.shields.io/badge/Workflows-9-orange)](#-workflows)
-[![Templates](https://img.shields.io/badge/Templates-12-purple)](#-project-structure)
+[![Templates](https://img.shields.io/badge/Templates-12-purple)](#-templates)
+[![Teams](https://img.shields.io/badge/Teams-8-red)](#-the-8-teams)
+[![Simulations](https://img.shields.io/badge/Battle--Tested-5%20Simulations-yellow)](#-battle-tested)
 
 <br>
 
 > **Clone this repo. Open it in Claude Code. Say `onboard`.**
-> That's it — you now have a marketing, sales, strategy, content, intelligence, and management team working for you.
-
-<br>
+> You now have a marketing, sales, research, strategy, content, intelligence, and management team working for you.
 
 **No API keys. No pip install. No configuration. Just results.**
 
 <br>
 
-[Get Started](#-quick-start) · [See All Teams](#-the-7-teams) · [Browse Workflows](#-workflows) · [Setup Obsidian](#-obsidian-setup-guide)
+[Quick Start](#-quick-start) · [All Teams](#-the-8-teams) · [Workflows](#-workflows) · [Obsidian Setup](#-obsidian-setup-guide) · [Save Credits](#-credit-saving-guide)
 
 </div>
 
@@ -30,15 +30,19 @@
 
 - [Introduction](#-introduction)
 - [Quick Start](#-quick-start)
-- [The 7 Teams](#-the-7-teams)
+- [The 8 Teams](#-the-8-teams)
 - [Commands](#-commands)
 - [Workflows](#-workflows)
 - [How It Works](#-how-it-works)
 - [Obsidian Setup Guide](#-obsidian-setup-guide)
 - [Project Structure](#-project-structure)
+- [Templates](#-templates)
 - [Quality Gate](#-quality-gate)
+- [Credit-Saving Guide](#-credit-saving-guide)
 - [ROI Tracking](#-roi-tracking)
-- [Example Session](#-example-session)
+- [Battle-Tested](#-battle-tested)
+- [Step-by-Step Walkthrough](#-step-by-step-walkthrough)
+- [Multi-Client Support](#-multi-client-support)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -50,16 +54,16 @@ Most businesses can't afford a full-service agency. The ones that can still wait
 
 **AI Agency in a Box changes that.**
 
-It's a complete agency system — 7 specialized teams with 100+ AI agents — that runs entirely inside [Claude Code](https://docs.anthropic.com/en/docs/claude-code). No external APIs. No monthly SaaS fees. No complex setup. You clone a repo, answer a few questions about your business, and the agency starts working.
+It's a complete agency system -- 8 specialized teams with 113+ AI agents -- that runs entirely inside [Claude Code](https://docs.anthropic.com/en/docs/claude-code). No external APIs. No monthly SaaS fees. No complex setup.
 
-Here's what makes it different:
+Here's what makes it different from other AI tools:
 
-- **It remembers everything.** An [Obsidian](https://obsidian.md)-compatible vault stores your brand voice, competitor research, campaign history, and deliverables. Every session builds on the last.
-- **It's not one agent — it's a full agency.** 7 teams with distinct specializations: Marketing (60 agents across 13 sub-teams), Sales, Intelligence, Strategy, Content, Direction, and Managing.
-- **It delivers real output.** Blog posts, email campaigns, landing pages, competitive analyses, sales proposals, SEO strategies — not summaries or suggestions, but actual ready-to-use deliverables.
-- **It checks its own work.** Every deliverable passes through a quality gate that verifies brand voice, factual accuracy, completeness, and formatting before delivery.
-
-This is v1. It's built for business owners, founders, marketers, and freelancers who need agency-level output without agency-level budgets.
+- **It's not one agent -- it's a full agency.** 8 teams with distinct specializations. Marketing alone has 60 agents across 13 sub-teams.
+- **It remembers everything.** An [Obsidian](https://obsidian.md)-compatible vault stores your brand voice, competitor research, campaign history, and every deliverable. Every session builds on the last.
+- **It delivers real output.** Blog posts, email campaigns, landing pages, competitive analyses, sales proposals, SEO strategies -- actual ready-to-use deliverables, not summaries.
+- **It checks its own work.** Every deliverable passes through a quality gate that verifies brand voice, factual accuracy, completeness, and formatting.
+- **It does real research.** The Research team uses web search to pull real market data, real competitor info, and real industry stats -- with sources cited.
+- **It saves you credits.** Built-in efficiency rules and a credit-saving guide help Claude Pro users reduce token usage by 40-70%.
 
 ---
 
@@ -74,7 +78,7 @@ cd Agency-in-a-BOX
 
 ### Step 2: Open in Claude Code
 
-Open the folder in Claude Code (CLI, VS Code extension, or desktop app).
+Open the folder in Claude Code -- works with CLI, VS Code extension, or desktop app. Claude reads the `CLAUDE.md` file automatically and becomes your agency.
 
 ### Step 3: Onboard your business
 
@@ -82,7 +86,22 @@ Open the folder in Claude Code (CLI, VS Code extension, or desktop app).
 You: onboard
 ```
 
-The agency will interview you about your business — company details, target audience, competitors, brand voice, and goals. It takes about 5 minutes.
+The agency interviews you in 5 phases:
+1. **Company Basics** -- name, industry, products, pricing, value proposition
+2. **Target Market** -- ideal customer, pain points, channels, deal size
+3. **Competition** -- top competitors, your differentiation, their strengths
+4. **Brand & Voice** -- personality, tone, words to use/avoid, example content
+5. **Goals** -- business goals, challenges, 90-day success criteria, budget
+
+After the interview, the agency automatically creates 5 files in your vault:
+
+| File | What It Contains |
+|------|-----------------|
+| `profile.md` | Complete company overview |
+| `brand-voice.md` | Tone, style, dos and don'ts with writing samples |
+| `competitors.md` | Competitive landscape analysis |
+| `icp.md` | Ideal customer profile with messaging |
+| `goals.md` | Goals, KPIs, 90-day success criteria, recommended actions |
 
 ### Step 4: Run your first workflow
 
@@ -90,11 +109,19 @@ The agency will interview you about your business — company details, target au
 You: workflow content-month
 ```
 
-That's it. The agency researches trends, plans a content calendar, writes 4 blog posts, 30 social media posts, 4 newsletters, and 2 video scripts — all tailored to your brand.
+The agency researches trends, plans a content calendar, writes 4 blog posts, 30 social media posts, 4 newsletters, and 2 video scripts -- all tailored to your brand voice.
+
+### Step 5: Check your dashboard
+
+```
+You: dashboard
+```
+
+See everything the agency has produced, active campaigns, and estimated cost savings.
 
 ---
 
-## The 7 Teams
+## The 8 Teams
 
 <table>
 <tr>
@@ -105,7 +132,7 @@ That's it. The agency researches trends, plans a content calendar, writes 4 blog
 <tr>
 <td>🔴 <strong>Marketing</strong></td>
 <td align="center">60</td>
-<td>SEO, social media, email campaigns, Google/Meta ads, landing pages, brand management, analytics, influencer marketing, A/B testing, competitive analysis, community management, PR — organized into 13 specialized sub-teams</td>
+<td>SEO, social media, email campaigns, Google/Meta ads, landing pages, brand management, analytics, influencer marketing, A/B testing, competitive analysis, community management, PR -- organized into <strong>13 specialized sub-teams</strong></td>
 </tr>
 <tr>
 <td>🟠 <strong>Sales</strong></td>
@@ -128,6 +155,11 @@ That's it. The agency researches trends, plans a content calendar, writes 4 blog
 <td>Blog posts, copywriting, social content, newsletters, video scripts, podcast scripts, whitepapers, content repurposing, editorial calendars, performance analysis</td>
 </tr>
 <tr>
+<td>🔍 <strong>Research</strong></td>
+<td align="center">8</td>
+<td>Deep market analysis (TAM/SAM/SOM), competitor teardowns, product landscape mapping, company profiling, industry scanning, customer behavior research, technology scouting, research synthesis</td>
+</tr>
+<tr>
 <td>🟡 <strong>Direction</strong></td>
 <td align="center">4</td>
 <td>OKR setting, priority management (ICE/RICE scoring), vision alignment, data-driven decision frameworks</td>
@@ -140,8 +172,6 @@ That's it. The agency researches trends, plans a content calendar, writes 4 blog
 </table>
 
 ### Marketing Sub-Teams (60 agents)
-
-The Marketing team is organized into 13 specialized sub-teams:
 
 | Sub-Team | Agents | Focus |
 |----------|--------|-------|
@@ -159,33 +189,50 @@ The Marketing team is organized into 13 specialized sub-teams:
 | Community | 3 | Management, content curation, engagement tracking |
 | PR | 3 | Press releases, media outreach, coverage tracking |
 
+### Research Team (8 agents) -- NEW in v2
+
+| Agent | What It Does |
+|-------|-------------|
+| **Market Analyst** | TAM/SAM/SOM calculation, market sizing, growth projections, segment analysis |
+| **Competitor Deep Diver** | Thorough competitor teardowns -- website, pricing, features, funding, reviews, content strategy |
+| **Product Researcher** | Product landscape mapping, feature comparison matrices, gap analysis |
+| **Company Profiler** | Complete company dossiers -- team, funding, revenue, tech stack, culture, strategy |
+| **Industry Scanner** | Full industry landscape -- players by tier, M&A, regulations, technology shifts |
+| **Customer Researcher** | Voice-of-customer from reviews, Reddit, forums -- sentiment, pain points, buying triggers |
+| **Technology Scout** | Emerging tech radar -- GitHub trending, Product Hunt, build-vs-buy analysis |
+| **Research Compiler** | Synthesizes all research into one executive brief with confidence levels and recommendations |
+
 ---
 
 ## Commands
 
 | Command | What Happens |
 |---------|-------------|
-| `onboard` | Interactive client interview — builds your complete profile |
+| `onboard` | Interactive 5-phase client interview -- builds your complete profile (5 vault files) |
 | `switch client [name]` | Switch between multiple client profiles |
 | `run marketing` | Activate the marketing team (choose sub-team or run all) |
 | `run sales` | Activate the sales team |
 | `run intelligence` | Activate the intelligence team |
 | `run strategy` | Activate the strategy team |
 | `run content` | Activate the content team |
+| `run research` | Activate the research team -- deep market/competitor/product analysis |
 | `run direction` | Activate the direction team |
 | `run managing` | Activate the managing team |
 | `workflow [name]` | Run a pre-built workflow chain (see below) |
-| `dashboard` | View agency status, active campaigns, deliverables |
+| `dashboard` | View agency status, active campaigns, deliverables, stats |
 | `roi` | See what the agency has produced and estimated cost savings |
-| `list teams` | Show all 7 teams and their agents |
-| `list workflows` | Show all available workflows |
+| `save credits` | Show credit-saving tips for Claude Pro users |
+| `watch competitors` | Run the competitive intelligence autopilot |
+| `qa [file]` | Run quality gate on any deliverable |
+| `list teams` | Show all 8 teams and their agents |
+| `list workflows` | Show all 9 available workflows |
 | `status` | Current client, active campaigns, recent work |
 
 ---
 
 ## Workflows
 
-Each workflow chains multiple agents together to produce a complete deliverable package.
+Each workflow chains multiple agents together. One command delivers a complete package.
 
 <table>
 <tr>
@@ -201,7 +248,7 @@ Each workflow chains multiple agents together to produce a complete deliverable 
 <tr>
 <td>🎯 <strong>Lead Generation</strong></td>
 <td align="center">8</td>
-<td>ICP research, 50-lead list, qualification, outreach emails, follow-ups, battlecards, proposal template</td>
+<td>ICP research, 50-lead list, qualification scoring, 5 outreach email variants, follow-up sequence, battlecards, proposal template</td>
 </tr>
 <tr>
 <td>📝 <strong>Content Month</strong></td>
@@ -211,17 +258,17 @@ Each workflow chains multiple agents together to produce a complete deliverable 
 <tr>
 <td>🔍 <strong>Competitor Report</strong></td>
 <td align="center">8</td>
-<td>Competitor scraping, SWOT per competitor, feature comparison, pricing analysis, battlecards, final report</td>
+<td>Competitor scraping, SWOT per competitor, feature comparison, pricing analysis, positioning map, battlecards, final report</td>
 </tr>
 <tr>
 <td>🎨 <strong>Brand Audit</strong></td>
 <td align="center">6</td>
-<td>Brand analysis, voice audit, messaging framework, brand guidelines, style guide</td>
+<td>Brand analysis, voice audit, messaging framework, brand guidelines, editorial style guide</td>
 </tr>
 <tr>
 <td>📈 <strong>SEO Overhaul</strong></td>
 <td align="center">8</td>
-<td>Technical audit, 100 keywords, competitor SEO, content gaps, 5 optimized posts, meta descriptions, linking strategy</td>
+<td>Technical audit, 100 keywords, competitor SEO, content gaps, 5 optimized posts, meta descriptions, internal linking strategy</td>
 </tr>
 <tr>
 <td>📧 <strong>Email Sequence</strong></td>
@@ -246,42 +293,37 @@ Each workflow chains multiple agents together to produce a complete deliverable 
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                  YOU GIVE AN OBJECTIVE               │
+│              YOU GIVE AN OBJECTIVE                   │
+│         "Launch my product" / "Get me leads"        │
 └─────────────────────┬───────────────────────────────┘
-                      │
                       ▼
 ┌─────────────────────────────────────────────────────┐
-│          CLAUDE.md routes to the right team          │
+│      CLAUDE.md routes to the right team(s)          │
 └─────────────────────┬───────────────────────────────┘
-                      │
                       ▼
 ┌─────────────────────────────────────────────────────┐
-│     Agent reads your client profile from vault       │
+│   Agent reads your client profile from the vault    │
+│   (brand voice, competitors, ICP, goals)            │
 └─────────────────────┬───────────────────────────────┘
-                      │
                       ▼
 ┌─────────────────────────────────────────────────────┐
-│    Agent researches (web search, competitor sites)    │
+│   Agent researches using web search & web fetch     │
+│   (real data, real competitors, cited sources)      │
 └─────────────────────┬───────────────────────────────┘
-                      │
                       ▼
 ┌─────────────────────────────────────────────────────┐
-│     Agent produces deliverable using templates        │
+│   Agent produces deliverable using templates        │
+│   (blog posts, emails, reports, proposals)          │
 └─────────────────────┬───────────────────────────────┘
-                      │
                       ▼
 ┌─────────────────────────────────────────────────────┐
-│  Quality gate checks voice, accuracy, completeness   │
+│   Quality gate verifies everything                  │
+│   (brand voice, accuracy, completeness, formatting) │
 └─────────────────────┬───────────────────────────────┘
-                      │
                       ▼
 ┌─────────────────────────────────────────────────────┐
-│   Saved to vault (memory) + output folder (delivery) │
-└─────────────────────┬───────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────────────┐
-│        Dashboard and ROI tracker updated             │
+│   Saved to vault (memory) + output/ (delivery)      │
+│   Dashboard and ROI tracker updated automatically   │
 └─────────────────────────────────────────────────────┘
 ```
 
@@ -289,22 +331,24 @@ Each workflow chains multiple agents together to produce a complete deliverable 
 
 ## Obsidian Setup Guide
 
-The `vault/` folder is an [Obsidian](https://obsidian.md)-compatible knowledge base. It's the agency's brain — it stores client profiles, research, campaigns, and deliverables with interconnected links.
+The `vault/` folder is an [Obsidian](https://obsidian.md)-compatible knowledge base. It's the agency's brain -- it remembers your brand, research, campaigns, and every deliverable across sessions.
 
 ### Why Obsidian?
 
-- **Visual knowledge graph** — see how clients, campaigns, research, and deliverables connect
-- **Bidirectional links** — `[[Client Name]]` creates a web of context automatically
-- **Free and open source** — just a folder of markdown files
-- **You can edit too** — add notes, correct info, and the agency picks it up
+| Feature | Why It Matters |
+|---------|---------------|
+| **Visual knowledge graph** | See how clients, campaigns, research, and deliverables connect visually |
+| **Bidirectional links** | `[[Client Name]]` creates a web of context automatically |
+| **Free and open source** | Just a folder of markdown files -- no vendor lock-in |
+| **You can edit too** | Add notes, correct info, and the agency picks it up next session |
 
-### Setup (Optional — the agency works without it)
+### Setup (5 steps)
 
 **Step 1:** Download Obsidian for free from [obsidian.md](https://obsidian.md)
 
 **Step 2:** Open Obsidian and click **"Open folder as vault"**
 
-**Step 3:** Select the `vault/` folder inside this project
+**Step 3:** Navigate to this project and select the `vault/` folder
 
 **Step 4:** You'll see the full agency knowledge base:
 
@@ -321,9 +365,9 @@ vault/
 └── 08-Operations/       → QA reviews, progress reports
 ```
 
-**Step 5:** After onboarding, your client profile appears with linked notes. Open the **Graph View** (left sidebar) to see the knowledge web.
+**Step 5:** After onboarding a client, open **Graph View** (left sidebar) to see your knowledge web with all the connections between clients, research, campaigns, and deliverables.
 
-> **Don't have Obsidian?** No problem. The vault files are just markdown — browse them in VS Code, any text editor, or let the AI manage everything automatically.
+> **Don't have Obsidian?** No problem. The files are just markdown. Browse them in VS Code, any text editor, or let the AI manage everything automatically.
 
 ---
 
@@ -332,14 +376,15 @@ vault/
 ```
 Agency-in-a-BOX/
 │
-├── CLAUDE.md                  # The brain — agency instructions
+├── CLAUDE.md                  # The brain — tells Claude Code how the agency works
 ├── README.md                  # You are here
 ├── LICENSE                    # MIT
 │
-├── agents/                    # 66 agent prompt files
-│   ├── marketing/             #   60 agents across 13 sub-teams
+├── agents/                    # 75 agent prompt files across 8 teams
+│   ├── marketing/             #   60 agents, 13 sub-teams
 │   ├── sales/                 #   10 agents
 │   ├── intelligence/          #   10 agents
+│   ├── research/              #   8 agents (NEW in v2)
 │   ├── strategy/              #   7 agents
 │   ├── content/               #   10 agents
 │   ├── direction/             #   4 agents
@@ -348,7 +393,7 @@ Agency-in-a-BOX/
 │
 ├── workflows/                 # 9 pre-built workflow chains
 ├── templates/                 # 12 professional deliverable templates
-├── tools/                     # 6 free tool guides + 3 helper scripts
+├── tools/                     # 7 free tool guides + 3 helper scripts
 ├── onboarding/                # Client interview and profile builder
 ├── quality/                   # Quality gate checklist
 │
@@ -366,112 +411,204 @@ Agency-in-a-BOX/
 └── output/                    # Final deliverables by client/date
 ```
 
-### What's Inside
+---
 
-| Folder | Files | Purpose |
-|--------|-------|---------|
-| `agents/` | 66 | One markdown file per agent with role, instructions, and output format |
-| `workflows/` | 9 | Step-by-step playbooks that chain agents together |
-| `templates/` | 12 | Professional deliverable templates (strategy docs, proposals, reports, etc.) |
-| `tools/` | 9 | Free tool guides (web research, competitor scraping, social listening) + Python scripts |
-| `vault/` | 8 | Obsidian-compatible memory vault with dashboard, templates, and folder structure |
-| `onboarding/` | 1 | Interactive client interview script |
-| `quality/` | 1 | Pre-delivery quality checklist |
+## Templates
+
+12 professional templates that agents use to produce polished deliverables:
+
+| Template | What It Produces |
+|----------|-----------------|
+| `marketing-strategy.md` | Full marketing strategy with market analysis, positioning, channels, budget, KPIs |
+| `seo-audit-report.md` | Technical SEO audit with issues, rankings, competitor comparison, action plan |
+| `content-calendar.md` | Monthly content calendar with dates, platforms, topics, status tracking |
+| `sales-proposal.md` | Client proposal with scope, timeline, pricing, terms, next steps |
+| `competitive-analysis.md` | Competitor report with feature matrix, pricing comparison, SWOT per competitor |
+| `email-campaign.md` | Email sequence with 5 emails, subject lines, A/B variants, success metrics |
+| `social-media-batch.md` | 30-post social media batch across platforms with hashtags and scheduling |
+| `weekly-report.md` | Weekly progress report with metrics, completed work, blockers, next steps |
+| `monthly-report.md` | Monthly agency report with KPIs, team activity, revenue impact, priorities |
+| `swot-analysis.md` | SWOT framework with cross-analysis (SO/WO/ST/WT) and priority actions |
+| `press-release.md` | AP-style press release with headline, quotes, boilerplate |
+| `case-study.md` | Case study with challenge, solution, results (with before/after metrics) |
 
 ---
 
 ## Quality Gate
 
-Every deliverable passes through a quality gate before delivery:
+Every deliverable passes through a quality gate before delivery. No exceptions.
 
-| Check | What It Verifies |
-|-------|-----------------|
-| **Brand Voice** | Matches your brand personality, tone, approved/banned words |
-| **Accuracy** | All facts verified via web search, all claims sourced |
-| **Completeness** | No placeholders, no TODOs, all sections filled |
-| **Specificity** | Tailored to your business — never generic advice |
-| **Formatting** | Uses correct template, professional structure |
-| **Vault Integration** | Saved correctly, linked with wikilinks, dashboard updated |
+| Check | What Gets Verified |
+|-------|-------------------|
+| **Brand Voice** | Matches your personality, tone, approved/banned words from `brand-voice.md` |
+| **Factual Accuracy** | All facts verified via web search. All claims have cited sources. |
+| **Completeness** | No placeholders, no TODOs, no empty sections. Every deliverable is finished. |
+| **Specificity** | Tailored to YOUR business. Never generic advice that could apply to anyone. |
+| **Formatting** | Professional structure. Templates used when appropriate. |
+| **Vault Integration** | Saved to vault with `[[wikilinks]]`. Dashboard and ROI tracker updated. |
+
+---
+
+## Credit-Saving Guide
+
+Built for Claude Pro users who want to maximize output per credit.
+
+| Technique | Savings | How |
+|-----------|---------|-----|
+| `/compact` at 60% context | 40-60% per session | Compress context while cache is warm |
+| Batch related tasks | Up to 5x savings | One prompt with 5 tasks instead of 5 prompts |
+| Use Sonnet for routine work | ~70% cheaper | Switch to Opus only for complex strategy |
+| `/clear` between workflows | Prevents bloat | Fresh context for each workflow |
+| Specific prompts | Fewer tokens | Name the agent file, state the outcome |
+| Reuse vault research | Skip redundant work | Check vault before re-researching |
+| Skip known workflow steps | Save entire steps | If vault has competitor data, skip that step |
+
+Full guide: [`tools/credit-saving.md`](tools/credit-saving.md)
 
 ---
 
 ## ROI Tracking
 
-The agency tracks everything it produces in `vault/00-Dashboard/ROI Tracker.md`:
+Every deliverable is tracked in `vault/00-Dashboard/ROI Tracker.md` against the industry agency rate of **$150/hr**.
 
-| Deliverable Type | Estimated Hours Saved | Value at $150/hr |
-|-----------------|----------------------|------------------|
-| Blog post | 2.5 hrs | $375 |
-| 30 social posts | 30 hrs | $4,500 |
-| Email campaign (5 emails) | 10 hrs | $1,500 |
-| Competitor analysis | 3 hrs | $450 |
-| Marketing strategy | 8 hrs | $1,200 |
-| Full strategy package | 40 hrs | $6,000 |
+| Deliverable | Hours Saved | Value |
+|------------|-------------|-------|
+| Blog post (1,500 words) | ~2.5 hrs | $375 |
+| 30 social media posts | ~30 hrs | $4,500 |
+| Email campaign (5 emails) | ~10 hrs | $1,500 |
+| Competitor analysis | ~3 hrs | $450 |
+| Marketing strategy | ~8 hrs | $1,200 |
+| Full strategy package | ~40 hrs | $6,000 |
+| SEO audit + 100 keywords | ~12 hrs | $1,800 |
+| Sales proposal | ~4 hrs | $600 |
 
-A single `workflow content-month` produces ~40 deliverables worth an estimated **$3,000+** in traditional agency fees.
+**A single `workflow content-month` produces ~40 deliverables worth $3,000+ in agency fees.**
+
+**A single `workflow full-strategy` produces ~15 deliverables worth $6,000+ in agency fees.**
 
 ---
 
-## Example Session
+## Battle-Tested
+
+This system was tested with 5 simulations across wildly different business types before release:
+
+| Simulation | Business Type | What Was Tested | Result |
+|-----------|--------------|-----------------|--------|
+| **FreshBrew Coffee** | D2C specialty coffee | Onboarding, content-month workflow, social media, quality gate | PASS |
+| **NexusAI** | B2B SaaS (AI support platform) | Product launch, market research, positioning, landing page | PASS |
+| **VelvetThread** | D2C sustainable fashion | Research team, SWOT, editorial blog writing, brand voice | PASS |
+| **ShieldOps** | B2B enterprise cybersecurity | Sales team, cold outreach, technical tone, lead generation | PASS |
+| **LoopAI** | Pre-launch AI startup ($0 revenue) | Direction team OKRs, build-in-public content, $500 budget | PASS |
+
+Every bug found during simulations was fixed before release. The quality gate caught real issues in every run -- proof that it works.
+
+---
+
+## Step-by-Step Walkthrough
+
+Here's exactly what happens when you use the agency:
+
+### 1. Onboarding (5 minutes)
 
 ```
 You: onboard
 
-Agency: Welcome to your AI Agency! I'll ask you some questions
-        about your business so I can set up your profile.
-        What's your company name?
+Agency: Welcome to your AI Agency! I'll ask you some questions about
+        your business so I can set up your profile. Let's start with
+        the basics. What's your company name?
 
 You: FreshBrew Coffee — we sell single-origin coffee beans online
 
-Agency: Great! What industry are you in, and who's your ideal customer?
+Agency: What industry are you in, and who's your ideal customer?
 
-You: D2C specialty coffee. Our customers are coffee enthusiasts
-     aged 25-40 who care about quality and sustainability.
+You: D2C specialty coffee. Coffee enthusiasts 25-40 who care about
+     quality and sustainability.
 
-Agency: [continues interview... competitors, brand voice, goals]
+Agency: [continues through 5 phases: basics, market, competitors, brand, goals]
+```
 
-        Your profile is set up! Here's what I've created:
-        - Client Profile
-        - Brand Voice Guide
-        - Competitive Landscape
-        - Ideal Customer Profile
-        - Goals & Success Criteria
+### 2. Profile Created (automatic)
 
-        Based on your goals, I recommend starting with:
-        1. workflow content-month — build your content engine
-        2. workflow seo-overhaul — fix your organic search gap
-        3. workflow lead-generation — build your sales pipeline
+The agency creates 5 files in your vault:
 
-        What would you like to work on first?
+```
+vault/01-Clients/FreshBrew Coffee/
+├── profile.md         → Full company overview
+├── brand-voice.md     → Tone guide with writing samples
+├── competitors.md     → Competitive landscape
+├── icp.md             → Ideal customer profile with messaging
+└── goals.md           → Goals, KPIs, recommended actions
+```
 
+### 3. Run a Workflow
+
+```
 You: workflow content-month
+```
 
-Agency: [researches real trends via web search]
-        [plans 30-day content calendar]
-        [writes 4 SEO-optimized blog posts]
-        [creates 30 platform-specific social posts]
-        [writes 4 email newsletters]
-        [writes 2 video scripts]
-        [runs quality gate on everything]
-        [saves to vault + output folder]
+The agency executes 7 steps:
 
+```
+Step 1: Trend research      → Searches real 2026 trends, finds 10 topics
+Step 2: Content calendar     → Plans 30 days across all channels
+Step 3: Blog posts (4)       → SEO-optimized, 1,500 words each
+Step 4: Social posts (30)    → Platform-specific, brand voice matched
+Step 5: Newsletters (4)      → Weekly emails with subject lines and CTAs
+Step 6: Video scripts (2)    → 3-5 min scripts with B-roll suggestions
+Step 7: Repurposing plan     → How to transform each piece across formats
+```
+
+### 4. Quality Gate (automatic)
+
+Every deliverable is checked:
+- Brand voice matches your profile
+- All facts verified via web search
+- No placeholder text
+- Professional formatting
+- Saved to vault with links
+
+### 5. Delivery
+
+```
+output/freshbrew-coffee/2026-04-07/content-month/
+├── blogs/
+│   ├── 01-what-is-single-origin-coffee.md
+│   ├── 02-processing-methods-explained.md
+│   ├── 03-subscription-guide.md
+│   └── 04-coffee-cupping-guide.md
+├── social-posts.md          → 30 posts across platforms
+├── newsletters/             → 4 weekly newsletters
+├── video-scripts/           → 2 video scripts
+└── repurposing-plan.md      → Transformation instructions
+```
+
+### 6. Dashboard
+
+```
 You: dashboard
 
-Agency: FreshBrew Coffee | Active
-        40 deliverables | 20.5 hours saved | $3,075 value
+FreshBrew Coffee | Active
+40 deliverables | 20.5 hours saved | $3,075 value generated
 ```
 
 ---
 
 ## Multi-Client Support
 
-The agency supports multiple clients simultaneously. Each client gets their own profile in `vault/01-Clients/` with dedicated brand voice, competitors, ICP, and goals.
+The agency supports multiple clients simultaneously. Each gets their own vault folder.
 
 ```
 You: switch client NexusAI
 ```
 
-All agents automatically load the new client's context. Research, deliverables, and campaigns stay organized per client.
+All agents automatically load NexusAI's brand voice, competitors, ICP, and goals. Research and deliverables stay organized per client in both the vault and output folder.
+
+```
+vault/01-Clients/
+├── FreshBrew Coffee/    → D2C coffee brand profile
+├── NexusAI/             → B2B SaaS profile
+└── VelvetThread/        → Sustainable fashion profile
+```
 
 ---
 
@@ -480,8 +617,8 @@ All agents automatically load the new client's context. Research, deliverables, 
 | Requirement | Details |
 |-------------|---------|
 | **Claude Code** | CLI, VS Code extension, or desktop app |
-| **Python 3.6+** | Only for optional helper scripts in `tools/scripts/` |
-| **Obsidian** | Optional — for visual vault browsing |
+| **Python 3.6+** | Optional -- only for helper scripts in `tools/scripts/` |
+| **Obsidian** | Optional -- for visual vault browsing |
 
 **That's it.** No API keys, no packages, no environment variables, no build steps.
 
@@ -489,7 +626,7 @@ All agents automatically load the new client's context. Research, deliverables, 
 
 ## Contributing
 
-Contributions are welcome.
+Contributions welcome. Here's how:
 
 1. Fork the repo
 2. Create a branch (`git checkout -b feature/new-workflow`)
@@ -498,21 +635,28 @@ Contributions are welcome.
 
 **Ideas for contributions:**
 - New agents for existing teams
-- New workflow chains
-- Industry-specific templates (SaaS, e-commerce, real estate, etc.)
+- New workflow chains (e.g., `workflow podcast-launch`, `workflow fundraise`)
+- Industry-specific templates (SaaS, e-commerce, real estate, healthcare)
 - Translations
+- Obsidian plugins or themes for the vault
 
 ---
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License -- see [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
 
-**Built for business owners who want agency-level output without agency-level costs.**
+### Built for business owners who want agency-level output without agency-level costs.
+
+**8 teams. 113+ agents. 9 workflows. 12 templates. Battle-tested.**
+
+**Your agency is one `git clone` away.**
+
+<br>
 
 [Get Started](#-quick-start) · [Star this repo](https://github.com/z1fex/Agency-in-a-BOX)
 
