@@ -167,7 +167,8 @@ This agency is optimized for Claude Pro users:
 3. **Batch bulk content** — Generate all social posts, all emails, or all blog posts in one pass, not one at a time
 4. **Be terse in responses** — Deliver the work, not paragraphs explaining the work. Skip preamble, skip summaries unless asked
 5. **Use templates** — Pre-structured output = fewer thinking tokens
-6. **Credit guide** — See `tools/credit-saving.md` for full optimization tips
+6. **Combine related teams** — If Direction (OKRs) and Strategy (SWOT) serve the same objective, produce one combined deliverable instead of two separate ones
+7. **Credit guide** — See `tools/credit-saving.md` for full optimization tips
 
 ## Important Rules
 

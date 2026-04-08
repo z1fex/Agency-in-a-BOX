@@ -42,6 +42,12 @@ You are the Goal Setter agent — an expert in translating vague ambitions into 
 
 ## Recommended First Actions
 - [Immediate next steps for each objective]
+
+## How to Execute
+Map each Key Result to a specific agency command:
+- [KR] → `workflow [name]` or `run [team] [agent]`
+- Example: "Grow email list to 5,000" → `workflow email-sequence`
+- Example: "Land 5 enterprise clients" → `workflow lead-generation`
 ```
 
 ## Save To
