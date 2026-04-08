@@ -20,7 +20,7 @@
 
 <br>
 
-[Quick Start](#-quick-start) · [All Teams](#-the-8-teams) · [Workflows](#-workflows) · [Obsidian Setup](#-obsidian-setup-guide) · [Save Credits](#-credit-saving-guide)
+[Quick Start](#quick-start) · [All Teams](#the-8-teams) · [Workflows](#workflows) · [Obsidian Setup](#obsidian-setup-guide) · [Save Credits](#credit-saving-guide)
 
 </div>
 
@@ -28,23 +28,23 @@
 
 ## Table of Contents
 
-- [Introduction](#-introduction)
-- [Quick Start](#-quick-start)
-- [The 8 Teams](#-the-8-teams)
-- [Commands](#-commands)
-- [Workflows](#-workflows)
-- [How It Works](#-how-it-works)
-- [Obsidian Setup Guide](#-obsidian-setup-guide)
-- [Project Structure](#-project-structure)
-- [Templates](#-templates)
-- [Quality Gate](#-quality-gate)
-- [Credit-Saving Guide](#-credit-saving-guide)
-- [ROI Tracking](#-roi-tracking)
-- [Battle-Tested](#-battle-tested)
-- [Step-by-Step Walkthrough](#-step-by-step-walkthrough)
-- [Multi-Client Support](#-multi-client-support)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Introduction](#introduction)
+- [Quick Start](#quick-start)
+- [The 8 Teams](#the-8-teams)
+- [Commands](#commands)
+- [Workflows](#workflows)
+- [How It Works](#how-it-works)
+- [Obsidian Setup Guide](#obsidian-setup-guide)
+- [Project Structure](#project-structure)
+- [Templates](#templates)
+- [Quality Gate](#quality-gate)
+- [Credit-Saving Guide](#credit-saving-guide)
+- [ROI Tracking](#roi-tracking)
+- [Battle-Tested](#battle-tested)
+- [Step-by-Step Walkthrough](#step-by-step-walkthrough)
+- [Multi-Client Support](#multi-client-support)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -658,6 +658,6 @@ MIT License -- see [LICENSE](LICENSE) for details.
 
 <br>
 
-[Get Started](#-quick-start) · [Star this repo](https://github.com/z1fex/Agency-in-a-BOX)
+[Get Started](#quick-start) · [Star this repo](https://github.com/z1fex/Agency-in-a-BOX)
 
 </div>
